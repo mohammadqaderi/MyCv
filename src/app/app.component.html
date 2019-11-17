@@ -1,21 +1,398 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<!-----------Header Section ------------>
+
+<section id="header">
+
+  <div class="container text-center">
+    <div class="user-box">
+      <img class="rounded-circle" src="../assets/myPic1.jpg" />
+      <h1>Mohammad Qaderi</h1>
+      <p class="lead"> MEAN-Stack Web Developer</p>
+    </div>
+  </div>
+</section>
+
+<!-----------User Info Section ------------>
+<section id="user-info">
+  <div class="nav-bar">
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#"><span>Mohammad Qaderi</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">ABOUT ME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#resume">RESUME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div class="social-icons">
+    <ul>
+      <a href="www.linkedin.com/in/mohammad-qaderi">
+        <li><i class="fa fa-linkedin"></i></li>
+      </a>
+      <a href="https://web.facebook.com/MohammadQaderi97">
+        <li><i class="fa fa-facebook"></i></li>
+      </a>
+      <a href="https://twitter.com/mohammad2866954">
+        <li><i class="fa fa-twitter"></i></li>
+      </a>
+      <a href="https://medium.com/@mqaderi44">
+        <li><i class="fa fa-medium"></i></li>
+      </a>
+    </ul>
+  </div>
+  <!----------- About ------------>
+  <div class="about container" id="about">
+    <div class="row">
+      <div class="col-md-6">
+        <h3 class="text-center brief">Brief About Me</h3>
+        <ul class="myLive">
+          <li>
+            <h4> <b>Name</b> : Mohamm Ibrahim Bani Ahmad</h4>
+          </li>
+          <li>
+            <h4><b>Age</b>: 22 Years Old</h4>
+          </li>
+          <li>
+            <h4><b>Location</b>: Jordan -- Jarash</h4>
+          </li>
+          <li>
+            <h4><b>Education</b>: Software Engineering at Albalqaa-Applied University</h4>
+          </li>
+          <li>
+            <h4><b>GBA</b>: 3.12 </h4>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <h3 class="text-center skills">My Skills</h3>
+        <ul class="mySkills">
+          <li>
+            <h4>Team Leader</h4>
+          </li>
+          <br>
+          <li>
+            <h4> Problems Solving Techniques</h4>
+          </li>
+          <li>
+            <h4>Time Manager</h4>
+          </li>
+          <li>
+            <h4>Good communication with Team-Members</h4>
+          </li>
+          <li>
+            <h4>Excelent English Language</h4>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <br>
+  <hr>
+
+  <!----------- Resume ------------>
+  <div class="resume" id="resume">
+    <div class="container-fluid cf1">
+      <h2 class="experiences">My Experiences</h2>
+      <div class="jumbotron1">
+        <div class="card-group">
+          <div class="card">
+            <img src="../assets/cssandhtml.png" class="card-img-top " alt="...">
+            <div class="card-body">
+              <h5 class="card-title">CSS & HTML</h5>
+              <p class="card-text lead">
+                <span>
+                  <b>Years of Experience:</b> 2yrs
+                  <br>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80"
+                      aria-valuemin="0" aria-valuemax="100">80%</div>
+                  </div>
+                </span>
+              </p>
+            </div>
+
+          </div>
+          <div class="card">
+            <img src="../assets/js.jfif" class="card-img-top " alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Java Script</h5>
+              <p class="card-text lead">
+                <span>
+                  <b>Years of Experience:</b> 2yrs
+                  <br>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85"
+                      aria-valuemin="0" aria-valuemax="100">85%</div>
+                  </div>
+                </span>
+              </p>
+            </div>
+
+          </div>
+          <div class="card">
+            <img src="../assets/nodejs.png" class="card-img-top " alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Node Js</h5>
+              <p class="card-text lead">
+                <span>
+                  <b>Years of Experience:</b> 1yrs
+                  <br>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="65"
+                      aria-valuemin="0" aria-valuemax="100">65%</div>
+                  </div>
+                </span>
+              </p>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="card-group">
+          <div class="card">
+            <img src="../assets/sqlServer.png" class="card-img-top " alt="...">
+            <div class="card-body">
+              <h5 class="card-title">SQL Web Server</h5>
+              <p class="card-text lead">
+                <span>
+                  <b>Years of Experience:</b> 1yrs
+                  <br>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70"
+                      aria-valuemin="0" aria-valuemax="100">70%</div>
+                  </div>
+                </span>
+              </p>
+            </div>
+          </div>
+          <div class="card">
+              <img src="../assets/angular.png" class="card-img-top " alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Angular</h5>
+                <p class="card-text lead">
+                  <span>
+                    <b>Years of Experience:</b> 2yrs
+                    <br>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90"
+                        aria-valuemin="0" aria-valuemax="100">90%</div>
+                    </div>
+                  </span>
+                </p>
+              </div>
+            </div>
+          <div class="card">
+            <img src="../assets/mongoImg.png" class="card-img-top " alt="...">
+            <div class="card-body">
+              <h5 class="card-title">MongoDB</h5>
+              <p class="card-text lead">
+                <span>
+                  <b>Years of Experience:</b> 1yrs
+                  <br>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 77%;" aria-valuenow="77"
+                      aria-valuemin="0" aria-valuemax="100">77%</div>
+                  </div>
+                </span>
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../assets/cSharp.jfif" class="card-img-top " alt="...">
+            <div class="card-body">
+              <h5 class="card-title">C# Language</h5>
+              <p class="card-text lead">
+                <span>
+                  <b>Years of Experience:</b> 1yrs
+                  <br>
+                  <b>Additionals: </b> Data Structures & Algorithms
+                  <br>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60"
+                      aria-valuemin="0" aria-valuemax="100">60%</div>
+                  </div>
+                </span>
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../assets/java.jfif" class="card-img-top " alt="...">
+            <div class="card-body">
+              <h5 class="card-title">JAVA Language</h5>
+              <p class="card-text lead">
+                <span>
+                  <b>Years of Experience:</b> 2yrs
+                  <br>
+                  <b>Additionals: </b> Data Structures & Algorithms
+                  <br>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80"
+                      aria-valuemin="0" aria-valuemax="100">80%</div>
+                  </div>
+                </span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="container-fluid cf2 mb-3">
+      <h2 class="techniques">My Techinques</h2>
+      <div class="jumbotron2">
+        <div class="card-group">
+          <div class="card">
+            <img src="../assets/express.jpeg" class="card-img-top " alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Express JS</h5>
+              <p class="card-text">By using it in the powerfull javaScript frameworks Nodejs, Angular,
+                Mongodb, and to control the way of setting up the routes and controllers
+              </p>
+            </div>
+
+          </div>
+          <div class="card">
+            <img src="../assets/nestjs.png" class="card-img-top " alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nest JS</h5>
+              <p class="card-text">i have only a single project, but in general it's like MEAN Stack,
+                instead of using javaScript we will use 100% typeScript on the entire project.</p>
+            </div>
+
+          </div>
+          <div class="card">
+            <img src="../assets/npm.png" class="card-img-top " alt="...">
+            <div class="card-body">
+              <h5 class="card-title">NPM (Node Package Manager)</h5>
+              <p class="card-text">I have used npm a lot in my projects, by learning the commands
+                of installing libraries such us bootstrap, Node-Mailer, expressJs etc..,
+                and solving problems in my project,
+              </p>
+            </div>
+
+          </div>
+          <div class="card">
+            <img src="../assets/OOP.png" class="card-img-top " alt="...">
+            <div class="card-body">
+              <h5 class="card-title">OOP (Object Oriented Language)</h5>
+              <p class="card-text">I have used OOP a lot in my projects, and i have fully understood
+                the general concepts of OOP in many language scuh as Java, C#, JS, python.. </p>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="card-group">
+          <div class="card">
+            <img src="../assets/wServices.jfif" class="card-img-top " alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Web Services and APIs</h5>
+              <p class="card-text">
+                In many projects of mine, often i have used REST-API, and two time or three times
+                i have used GraphQL to build awesome server-side of my applications.
+                <br>
+                in my projects in Mean Stack, i have used a lot of web-services
+                such as AWS for cloud storage and a lot of things to complete the functionality of
+                my Applications.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../assets/designPatterns.png" class="card-img-top " alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Design Patterns </h5>
+              <p class="card-text"> I only learned Design Patterns in Java language, but it's
+                doesent matter because it's a way to think of stand-alone systems in more
+                specialized and analyzed way and to avoid bad scenarios in the way of building
+                the System.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../assets/angularMaterial.jfif" class="card-img-top " alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Angular Matterial</h5>
+              <p class="card-text">This library is very great library to build the front-end
+                of many applications of mine, it's not only for giving you a look, it will give
+                you a powerfull logic to control the way of placing data in their appropriate
+                positions.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../assets/bootstrapImg.jfif" class="card-img-top " alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bootstrap-4</h5>
+              <p class="card-text">on my all projects, i have used this library to reduce my effort
+                of building the design and other staffs, but really it's a great library
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact" id="contact">
+    <div class="container text-center">
+      <h1>Contact Me</h1>
+      <p class="text-center lead">You can contact with me on the following conncetions or visit my
+        social-media links on the left side of this page.</p>
+      <div class="row">
+        <div class="col-md-4">
+          <i class="fa fa-phone"></i>
+          <p>+962 785189906</p>
+        </div>
+        <div class="col-md-4">
+          <i class="fa fa-envelope"></i>
+          <p>mqaderi44@gmail.com</p>
+        </div>
+        <div class="col-md-4">
+          <a href="https://github.com/mohammadqaderi"><i class="fa fa-github"></i></a>
+          <p>GitHub Account</p>
+        </div>
+      </div>
+      <a type="button" href="https://github.com/mohammadqaderi/MyCv.git" class="btn btn-primary">
+        <i class="fa fa-download"></i> Download Resume
+      </a>
+    </div>
+  </div>
+
+
+
+
+</section>
+
+<script src="../smooth-scroll.js"></script>
+<script>
+  var scroll = new SmoothScroll('a[href*="#"]');
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <router-outlet></router-outlet>
